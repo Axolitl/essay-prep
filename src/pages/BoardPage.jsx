@@ -33,7 +33,6 @@ export default function BoardPage({ courseId }) {
                 responses: arrayUnion(responseText)
             });
 
-    // No need to call setPrompts manually — onSnapshot will update local state
         } catch (err) {
             console.error("Error adding response:", err);
         }
