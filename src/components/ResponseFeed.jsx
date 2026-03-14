@@ -8,7 +8,7 @@ export default function ResponseFeed({ responses }) {
     return (
         <div style={{ marginTop: "16px" }}>
             {responses.map((response, index) => (
-                <p key={index} style={{ borderBottom: "1px solid #555", padding: "4px 0" }}>
+                <p key={index} style={{borderBottom: "1px solid #555",padding: "4px 0",textAlign: "left"}}>
                     {response}
                 </p>
             ))}
